@@ -5,8 +5,10 @@ import Hello from './Hello'
 
 
 
+
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   <Hello/>
+   <Hello name ="Nishan"/>
   </StrictMode>,
 )
